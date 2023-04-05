@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Q&A</title>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="p-12">
+  <header class="mt-5">
+    <h1 class="text-4xl font-bold text-center text-red-500 bg-pink-100 px-3">Just Click To Get The Answer</h1>
+  </header>
+   <main>
+    <section class="w-[50%] mx-auto py-12 text-center bg-orange-400 mt-5 rounded-lg">
+      <div class="dropdown">
+        <label tabindex="0" class="btn m-1">Q-1: What is DOM and what is the purpose of DOM?</label>
+        <div tabindex="0" class="dropdown-content card card-compact w-full p-2 shadow bg-primary text-primary-content">
+          <div class="card-body">
+            <!-- <h3 class="card-title">Card title!</h3> -->
+            <p>Dom means document object model which is use to interect and manipulat web appliction 
+              and it can change document and its represent document as a node and object in javascript.</p>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <div class="dropdown mt-40">
+        <label tabindex="0" class="btn m-1">Q-2: How will you select HTML elements using DOM? Name the DOM methods.</label>
+        <div tabindex="0" class="dropdown-content card card-compact w-full p-2 shadow bg-primary text-primary-content">
+          <div class="card-body">
+            <!-- <h3 class="card-title">Card title!</h3> -->
+            <p>we can select with id, tag name, class name, querySelector & querySelectorALL
+              To select by tag name: getElementsByTagName() <br>
+              To select by class name: getElementsByClassName()<br>
+              To select by id name: getElementById()<br>
+              To select by js querySelector methods: querySelector()<br>
+              To select by js querySelectorALL methods: querySelectorAll()<br>
+              and we can also select with event.target. </p>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <div class="dropdown mt-40">
+        <label tabindex="0" class="btn m-1">Q-3: What is event bubble?</label>
+        <div tabindex="0" class="dropdown-content card card-compact w-full p-2 shadow bg-primary text-primary-content">
+          <div class="card-body">
+            <!-- <h3 class="card-title">Card title!</h3> -->
+            <p>event bubble is a dom event ,when we want to select the innermost target, then the bubble event propagate until it gets to the root element.</p>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <div class="dropdown mt-40">
+        <label tabindex="0" class="btn m-1">Q-4:  What is a callback function and why will you use it?</label>
+        <div tabindex="0" class="dropdown-content card card-compact w-full p-2 shadow bg-primary text-primary-content">
+          <div class="card-body">
+            <!-- <h3 class="card-title">Card title!</h3> -->
+            <p>When a function is set inside another function with the function name and parameter to get the work of that function, we call it  callback function .
+              and we also use function to reduce repeating code  </p>
+              
+          </div>
+        </div>
+      </div>
+    </section>
+   </main>
+      
+</body>
+</html>
